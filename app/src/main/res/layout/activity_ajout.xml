@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ajout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Ajout"
+        android:textSize="32sp"
+        android:textColor="@color/bleu"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:text="nom"
+            android:textSize="20sp"
+            android:textColor="@color/green">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="saisir nom"
+            android:id="@+id/et_nom_ajout"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:text="prenom"
+            android:textSize="20sp"
+            android:textColor="@color/green">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="saisir prenom"
+            android:id="@+id/et_prenom_ajout"
+     />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:text="Numero"
+            android:textSize="20sp"
+            android:textColor="@color/green">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="saisir numero"
+            android:id="@+id/et_numero_ajout"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_val_ajout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9C27B0"
+            android:text="Ajouter">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_quit_ajout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9C27B0"
+            android:text="Afficher">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
